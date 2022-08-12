@@ -1,0 +1,24 @@
+.piccontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__personalpicture {
+    margin-top: 40px;
+    width: 69%;
+    position: relative;
+    @include desktop {
+      margin-top: 0;
+      width: 26%;
+    }
+  }
+  &__logo {
+    display: none;
+    @include desktop() {
+      display: flex;
+      width: 12%;
+      margin-top: -15vh;
+      margin-left: 326px;
+      z-index: 100;
+    }
+  }
+}

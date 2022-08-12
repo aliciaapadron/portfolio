@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0 30px;
+  @include desktop() {
+    font-size: 20px;
+  }
+  &__title {
+    font-size: 12px;
+    margin: 0 5px;
+    color: $darkcolor;
+    @include desktop() {
+      font-size: 20px;
+    }
+  }
+  &__link {
+    font-size: 12px;
+    color: $darkcolor;
+    text-decoration: none;
+    @include desktop() {
+      font-size: 20px;
+    }
+    &:hover {
+      color: $link;
+      background-color: $ligthpalette;
+      border-radius: 10px;
+      opacity: 0.5;
+    }
+  }
+}

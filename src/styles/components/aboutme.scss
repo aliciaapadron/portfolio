@@ -1,0 +1,39 @@
+.aboutsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 60px 80px;
+  @include desktop() {
+    font-size: 20px;
+    margin: 80px 60px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 30px;
+    color: $darkpalette;
+    background: $background;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    @include desktop() {
+      font-size: 22px;
+    }
+  }
+  &__text {
+    margin: 0;
+    font-size: 16px;
+    @include desktop() {
+      font-size: 20px;
+      margin: 0 132px;
+    }
+  }
+  &__img {
+    width: 255px;
+    margin-bottom: 40px;
+    @include desktop() {
+      width: 350px;
+    }
+  }
+}
