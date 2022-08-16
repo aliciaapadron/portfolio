@@ -1,27 +1,30 @@
 .proyectsection {
+  margin: 1.6rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  font-family: $text;
-  font-size: 16px;
-  margin: 30px 60px 80px;
-  @include desktop() {
-    font-size: 20px;
-    margin: 80px 60px;
-  }
 
+  @include desktop() {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
   &__title {
+    text-align: center;
     margin-bottom: 30px;
     color: $darkpalette;
     background: $background;
     padding: 5px;
     border-radius: 10px;
     font-size: 16px;
-    text-align: center;
     @include desktop() {
       font-size: 22px;
     }
+  }
+  margin: 1.6rem;
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 .list {
@@ -33,7 +36,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 2px 5px 10px $darkpalette;
+    box-shadow: 2px 5px 10px $darkcolor;
     border-radius: 25px;
     margin-bottom: 5rem;
     width: 80%;
@@ -45,16 +48,34 @@
       -o-transform: scale(1.1);
       transform: scale(1.1);
     }
-    &--link {
-      color: $darkpalette;
-      font-weight: bolder;
-      text-decoration: none;
+    @include desktop() {
+      width: 25%;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    &--title {
+      text-align: center;
+      color: $darkcolor;
+      margin: 1.4rem 0rem 1rem 0rem;
+      font-weight: bold;
+      font-size: 18px;
     }
     &--img {
-      width: 40%;
+      display: block;
+      border-radius: 5px;
+      padding: 1rem;
+      height: 70%;
+    }
+    &--text {
+      padding: 1rem;
+      text-align: left;
+      line-height: 1.5;
+    }
+    &--link {
       display: flex;
-      justify-content: center;
-      align-items: center;
+      flex-direction: row;
+      justify-content: space-evenly;
+      width: 100%;
     }
   }
 }

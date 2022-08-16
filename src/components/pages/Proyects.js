@@ -1,5 +1,6 @@
 import { Footer } from '../Footer';
 import { Header } from '../Header';
+import img0 from '../../images/img0.png';
 import img1 from '../../images/img1.JPG';
 import img2 from '../../images/img2.JPG';
 import img3 from '../../images/img3.JPG';
@@ -19,113 +20,237 @@ export function Proyects() {
           Aquí podrás encontrar links a mis trabajos.
         </h2>
         <ul className="list">
+          {/* C.padronsaludmental */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/cpadronsaludmental/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              C.Padrón Salud Mental
-            </a>
-            <img className="list__item--img" src={img1} alt="Vista previa" />
+            <h4 className="list__item--title">C.Padrón Salud Mental</h4>
+            {/* <img
+              className="list__item--img"
+              src={img1}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/cpadronsaludmental/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* SpaceX */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/SpaceX-Missions-Search/#/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              SpaceX-Missions Search
-            </a>
-            <img className="list__item--img" src={img2} alt="Vista previa" />
+            <h4 className="list__item--title">SpaceX-Missions Search</h4>
+            {/* <img
+              className="list__item--img"
+              src={img2}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/SpaceX-Missions-Search/#/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* Owen Wilson */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/owen-wilson-wows/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Owen Wilson wows
-            </a>
-            <img className="list__item--img" src={img3} alt="Vista previa" />
+            <h4 className="list__item--title">Owen Wilson wows</h4>
+            {/* <img
+              className="list__item--img"
+              src={img3}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/owen-wilson-wows/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* Awesome profil cards sin página web node y MYSQL*/}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/owen-wilson-wows/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Awesome profil cards
-            </a>
-            <img className="list__item--img" src={img4} alt="Vista previa" />
+            <h4 className="list__item--title"> Awesome profil cards</h4>
+            {/* <img
+              className="list__item--img"
+              src={img0}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href="https://github.com/aliciaapadron/awesome-profile-cards"
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+            </div>
           </li>
+          {/* Página personal */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/react-porfolio/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Página personal
-            </a>
-            <img className="list__item--img" src={img5} alt="Vista previa" />
+            <h4 className="list__item--title"> Página personal</h4>
+            {/* <img
+              className="list__item--img"
+              src={img5}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/react-porfolio/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* Friends */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/friends-quotes/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Friends Quotes
-            </a>
-            <img className="list__item--img" src={img6} alt="Vista previa" />
+            <h4 className="list__item--title"> Friends Quotes</h4>
+            {/* <img
+              className="list__item--img"
+              src={img6}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/friends-quotes/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* Cocktail finder */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/cocktail-finder/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Cocktail finder
-            </a>
-            <img className="list__item--img" src={img7} alt="Vista previa" />
+            <h4 className="list__item--title"> Cocktail finder</h4>
+            {/* <img
+              className="list__item--img"
+              src={img7}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/cocktail-finder/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
+          {/* Lov3lace */}
           <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/project-lov3lace/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Lov3lace
-            </a>
-            <img className="list__item--img" src={img8} alt="Vista previa" />
-          </li>
-          <li className="list__item">
-            <a
-              className="list__item--link"
-              href="https://aliciaapadron.github.io/open-spaces/"
-              target="_blank"
-              rel="noreferrer"
-              title="Ir al proyecto"
-            >
-              Open Spaces
-            </a>
-            <img className="list__item--img" src={img9} alt="Vista previa" />
+            <h4 className="list__item--title">Lov3lace</h4>
+            {/* <img
+              className="list__item--img"
+              src={img8}
+              alt="Vista previa"
+              title="imagen del proyecto"
+            ></img> */}
+            <p className="list__item--text">Técnología utilizada</p>
+            <div className="list__item--link">
+              <a
+                className="icon"
+                href=""
+                target="_blank"
+                rel="noreferrer"
+                title="Ir al proyecto"
+              >
+                <i class="fa-solid fa-code"></i>
+              </a>
+              <a
+                href="https://aliciaapadron.github.io/project-lov3lace/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon"
+              >
+                <i class="fa-solid fa-display"></i>
+              </a>
+            </div>
           </li>
         </ul>
       </section>
