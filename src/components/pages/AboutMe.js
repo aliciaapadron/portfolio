@@ -20,8 +20,8 @@ export function AboutMe() {
         <div className="aboutsection__text">
           <p>
             Dediqué seis años al mundo textil 👗, pero llegado un momento decidí
-            darle un giro a mi vida ✨​ y a mi carrera y así fue como me
-            embarqué en el mundo IT ​.{' '}
+            darle un giro a mi vida y a mi carrera y así fue como me embarqué en
+            el mundo IT ✨​.{' '}
           </p>
           <br />
           <p>

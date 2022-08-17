@@ -371,7 +371,7 @@ export function Proyects() {
           </li>
           {/*Sailor Moon */}
           <li className="list__item">
-            <h4 className="list__item--title">Star wars</h4>
+            <h4 className="list__item--title">Sailor Moon</h4>
             <img
               className="list__item--img"
               src={img13}
