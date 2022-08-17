@@ -63,8 +63,11 @@
     &--img {
       display: block;
       border-radius: 5px;
+      border: solid 2px $ligthpalette;
       padding: 1rem;
-      height: 70%;
+      width: 90%;
+      height: 17.3rem;
+      object-fit: cover;
     }
     &--text {
       padding: 1rem;
@@ -76,6 +79,23 @@
       flex-direction: row;
       justify-content: space-evenly;
       width: 100%;
+      margin-bottom: 15px;
     }
+  }
+}
+.tech {
+  color: $darkcolor;
+  font-size: 25px;
+  margin: 20px 10px 20px;
+}
+.proyecticon {
+  margin-right: 10px;
+  color: $background;
+  padding: 5px;
+  &:hover {
+    color: $darkcolor;
+    background-color: $background;
+    border: 2px solid $darkcolor;
+    border-radius: 100px;
   }
 }

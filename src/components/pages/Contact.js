@@ -8,7 +8,7 @@ export function Contact() {
       <Header />
       <section className="contactsection">
         <h2 className="contactsection__title">
-          Encuentra comunidad Autista y (T)DAH en mis RRSS:
+          Encuentra más información sobre mí en mis RRSS:
         </h2>
         <ul className="contactsection__list">
           <li className="contactsection__list--item">
